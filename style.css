@@ -1,0 +1,186 @@
+
+/* Text Alignment &color */
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: red;
+    text-align: left;
+}
+.r{
+    color : green ;
+    text-align: right;
+}
+/* Text Decoration */
+.Decoration{
+    border: 1px solid goldenrod;
+    background-color: antiquewhite;
+   
+
+}
+.Indentation{
+    text-indent:50px;
+}
+#none{
+    text-decoration: none;
+
+
+}
+#over{
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+#thro{
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+#under{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+/* img{
+    position: absolute;
+    left: 0px;
+    top: 800px;
+    z-index: -1;
+    float: left;
+    margin: 0 0 10px 10px;
+    clear:both;
+} */
+/* CSS Font Families style size weight*/
+.Font_Families{
+    margin-top: 20px;
+    border: 1px solid goldenrod;
+    background-color: antiquewhite;
+    
+}
+.generic{
+    font-family: monospace ;
+    font-style: italic;
+    font: size 2.5em;
+    font-weight: bold;
+
+}
+.specific{
+    font-family:'Times New Roman', Times , serif;
+    font-style: oblique;
+    font-size: xx-large;
+}
+p.small { font-variant: small-caps; }
+/* CSS Links
+ */
+ .links{
+    margin-top: 20px;
+    border: 1px solid goldenrod;
+    background-color: antiquewhite;
+ }
+ .links a:link {
+    color: blue;
+    background-color: yellow;
+    text-decoration: none;
+   }
+
+  .links  a:visited {
+    color: red;
+    background-color: seagreen;
+
+    text-decoration: none;
+   }
+  .links  a:hover {
+    color: green;
+    background-color: black;
+    text-decoration: underline; 
+   }
+   .links a:active {
+    color: black;
+    background-color: lightseagreen;
+    text-decoration: underline; 
+   }
+   /* positions */
+   
+   .fixed{
+    position: fixed;
+    background-color: #ff69b4;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 50%;
+
+   }
+   .static{
+    border: 3px dotted #ff69b4;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
+   }
+   .static .one{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+   }
+   .static .two{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+   }
+   .static .three{
+    position: static;
+  
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+   }
+   .relative{
+    position: relative;
+    border: 3px dotted #6976ff;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
+   }
+   .relative .one{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+   }
+   .relative .two{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+   }
+   .relative .three{
+    position: relative;
+    left:150px;
+    bottom:  50px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+   }
+   .absolute{
+    position: absolute;
+    border: 3px dotted #31c014;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
+   }
+   .absolute .one{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+   }
+   .absolute .two{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+   }
+   .absolute .three{
+    position: absolute;
+    left:150px;
+    top:  50px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+   }
